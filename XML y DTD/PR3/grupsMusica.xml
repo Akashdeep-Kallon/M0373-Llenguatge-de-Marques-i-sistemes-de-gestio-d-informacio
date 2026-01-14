@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE grupsMusica SYSTEM "grupsMusica.dtd">
+
+<grupsMusica>
+    <grup generePrincipal="rock" id="GrupColdplay" nIntegrants="4">
+        <nomGrup idNomGrup="Coldplay">Coldplay</nomGrup>
+        <genere>Rock Alternatiu</genere>
+        <webOficial>https://www.coldplay.com</webOficial>
+        <integrants>
+            <integrant order="1">
+                <nomIntegrant idNom="Chris">Chris</nomIntegrant>
+                <cognom>Martin</cognom>
+            </integrant>
+            <integrant order="2">
+                <nomIntegrant idNom="Jonny">Jonny</nomIntegrant>
+                <cognom>Buckland</cognom>
+            </integrant>
+        </integrants>
+        <nConcerts>150</nConcerts>
+        <nFans idfans="fansColdplay">50000000</nFans>
+    </grup>
+
+    <grup generePrincipal="rock" id="GrupBeatles" nIntegrants="4">
+        <nomGrup idNomGrup="Beatles">The Beatles</nomGrup>
+        <genere>Rock</genere>
+        <webOficial>https://www.thebeatles.com</webOficial>
+        <integrants>
+            <integrant order="1">
+                <nomIntegrant idNom="John">John</nomIntegrant>
+                <cognom>Lennon</cognom>
+            </integrant>
+            <integrant order="2">
+                <nomIntegrant idNom="Paul">Paul</nomIntegrant>
+                <cognom>McCartney</cognom>
+            </integrant>
+            <integrant order="3">
+                <nomIntegrant idNom="George">George</nomIntegrant>
+                <cognom>Harrison</cognom>
+            </integrant>
+            <integrant order="4">
+                <nomIntegrant idNom="Ringo">Ringo</nomIntegrant>
+                <cognom>Starr</cognom>
+            </integrant>
+        </integrants>
+        <nConcerts>250</nConcerts>
+        <nFans idfans="fansBeatles">80000000</nFans>
+    </grup>
+</grupsMusica>

@@ -1,0 +1,81 @@
+  .imagenLogo {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+
+  .links {
+    border: 5px dotted black;
+    background-color: blue;
+  }
+
+  .links a {
+
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .titol1 {
+    background-color: yellow;
+    border: 4px dashed greenyellow;
+    margin-bottom: 5px;
+    color: brown;
+    text-align: center;
+  }
+
+  .texto1 {
+    background-color: white;
+    border: 4px dotted black;
+    margin-bottom: 5px;
+    color: blue;
+    text-align: left;
+  }
+
+  .autor {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 5px dotted rgb(255, 255, 255);
+    margin-bottom: 5px;
+  }
+
+  .titol2 {
+    background-color: white;
+    border: 4px solid rgb(128, 0, 117);
+    margin-bottom: 5px;
+    color: red;
+    text-align: center;
+  }
+
+  .texto2 {
+    margin-bottom: 5px;
+    text-align: right;
+  }
+
+  .tabla {
+    width: 80%;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  #tabla {
+    width: auto;
+    display: inline-block;
+  }
+
+  thead {
+    background-color: #bbdefb;
+  }
+
+  tbody {
+    background-color: #c8e6c9;
+  }
+
+  .contacto {
+    text-align: center;
+    border: 4px dotted green;
+    color: rgb(203, 145, 195);
+  }

@@ -1,0 +1,97 @@
+html,
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "imagen-principal titulo titulo"
+        "enlaces contenido barra-lateral";
+    grid-template-columns: 200px 1fr 100px;
+    grid-template-rows: 150px auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagen-principal {
+    grid-area: imagen-principal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-principal img {
+    background-color: lightcoral;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    grid-area: titulo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 238, 179);
+}
+
+.enlaces {
+    grid-area: enlaces;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.enlaces li {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.contenido {
+    grid-area: contenido;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 25px;
+}
+
+.bloque {
+    display: flex;
+    width: 80%;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+    align-items: center;
+    text-align: justify;
+}
+
+.contenidoInfo {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.contenidoInfo h2 {
+    text-align: center;
+    background-color: white;
+}
+
+.bloque img {
+    width: 100%;
+    height: auto;
+}
+
+.barra-lateral {
+    grid-area: barra-lateral;
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.barra-lateral img {
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+}

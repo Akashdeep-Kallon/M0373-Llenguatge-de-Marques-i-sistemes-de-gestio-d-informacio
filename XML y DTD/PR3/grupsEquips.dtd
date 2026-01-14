@@ -1,0 +1,28 @@
+<!ELEMENT grupsEquips (equip+)>
+
+<!ELEMENT equip (nomEquip, juguen, ubicacio, director, preparador+, numeroVictories, numeroDerrotes, jugadors)>
+<!ATTLIST equip id ID #REQUIRED
+>
+
+<!ELEMENT nomEquip (#PCDATA)>
+<!ELEMENT juguen (#PCDATA)>
+<!ELEMENT ubicacio (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+
+<!ELEMENT preparador (#PCDATA)>
+
+<!ELEMENT numeroVictories (#PCDATA)>
+<!ELEMENT numeroDerrotes (#PCDATA)>
+
+<!ELEMENT jugadors (jugador+)>
+
+<!ELEMENT jugador (nom, cognom, dataNaixement, funcioPrincipal, funcionsSecundaries*)>
+<!ATTLIST jugador order CDATA #REQUIRED
+>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT dataNaixement (#PCDATA)>
+
+<!ELEMENT funcioPrincipal (#PCDATA)>
+<!ELEMENT funcionsSecundaries (#PCDATA)>

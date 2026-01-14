@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grupsEquips SYSTEM "grupsEquips.dtd">
+
+<grupsEquips>
+    <equip id="Barcelona">
+        <nomEquip>Barcelona F.C</nomEquip>
+        <juguen>Futbol</juguen>
+        <ubicacio>España, Catalunya, Barcelona</ubicacio>
+        <director>Ferran Reverter</director>
+        <preparador>Hans-Dieter Flick</preparador>
+        <numeroVictories>26</numeroVictories>
+        <numeroDerrotes>12</numeroDerrotes>
+        <jugadors>
+            <jugador order="1">
+                <nom>Pedri</nom>
+                <cognom>González</cognom>
+                <dataNaixement>2002-11-25</dataNaixement>
+                <funcioPrincipal>Mediocentro</funcioPrincipal>
+                <funcionsSecundaries>Extremo izquierdo</funcionsSecundaries>
+            </jugador>
+            <jugador order="2">
+                <nom>Ronald</nom>
+                <cognom>Araujo</cognom>
+                <dataNaixement>1999-03-07</dataNaixement>
+                <funcioPrincipal>Defensa central</funcioPrincipal>
+                <funcionsSecundaries>Lateral derecho</funcionsSecundaries>
+            </jugador>
+        </jugadors>
+    </equip>
+
+    <equip id="RealMadrid">
+        <nomEquip>Real Madrid C.F</nomEquip>
+        <juguen>Futbol</juguen>
+        <ubicacio>España, Madrid</ubicacio>
+        <director>José Ángel Sánchez</director>
+        <preparador>Carlo Ancelotti</preparador>
+        <numeroVictories>30</numeroVictories>
+        <numeroDerrotes>8</numeroDerrotes>
+        <jugadors>
+            <jugador order="1">
+                <nom>Vinícius</nom>
+                <cognom>Júnior</cognom>
+                <dataNaixement>2000-07-12</dataNaixement>
+                <funcioPrincipal>Extremo izquierdo</funcioPrincipal>
+                <funcionsSecundaries>Delantero</funcionsSecundaries>
+            </jugador>
+            <jugador order="2">
+                <nom>Luka</nom>
+                <cognom>Modrić</cognom>
+                <dataNaixement>1985-09-09</dataNaixement>
+                <funcioPrincipal>Mediocentro</funcioPrincipal>
+                <funcionsSecundaries>Mediapunta</funcionsSecundaries>
+            </jugador>
+        </jugadors>
+    </equip>
+</grupsEquips>

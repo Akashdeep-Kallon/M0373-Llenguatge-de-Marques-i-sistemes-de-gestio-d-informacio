@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contactes SYSTEM "contactes.dtd">
+
+<contactes>
+    <contacte familiar="si">
+        <nom>Samuel</nom>
+        <edat>36</edat>
+        <cognoms>
+            <congnom order="1">DeLoque</congnom>
+            <congnom order="2">Batuecas</congnom>
+        </cognoms>
+
+        <telefons>
+            <telefon>
+                <prefix>+34</prefix>
+                <numeroTelefon>943576808</numeroTelefon>
+                <tipus>fix</tipus>
+            </telefon>
+            <telefon>
+                <prefix>+34</prefix>
+                <numeroTelefon>612341674</numeroTelefon>
+                <tipus>mobil</tipus>
+            </telefon>
+        </telefons>
+
+        <direccio principal="si">
+            <carrer>c/ Muntaner</carrer>
+            <numeroDireccio>177</numeroDireccio>
+            <codiPostal>08006</codiPostal>
+            <ciutat>Barcelona</ciutat>
+        </direccio>
+        <email>vegetta777@gmail.com</email>
+    </contacte>
+
+    <contacte familiar="no">
+        <nom>Guillermo</nom>
+        <edat>32</edat>
+        <cognoms>
+            <congnom order="1">Díaz</congnom>
+            <congnom order="2">Ibáñez</congnom>
+        </cognoms>
+
+        <telefons>
+            <telefon>
+                <prefix>+34</prefix>
+                <numeroTelefon>936547889</numeroTelefon>
+                <tipus>fix</tipus>
+            </telefon>
+            <telefon>
+                <prefix>+34</prefix>
+                <numeroTelefon>612435763</numeroTelefon>
+                <tipus>mobil</tipus>
+            </telefon>
+        </telefons>
+
+        <direccio principal="no">
+            <carrer>c/ Muntaner</carrer>
+            <numeroDireccio>177</numeroDireccio>
+            <codiPostal>08006</codiPostal>
+            <ciutat>Barcelona</ciutat>
+        </direccio>
+        <email>WillyRex@gmail.com</email>
+    </contacte>
+</contactes>

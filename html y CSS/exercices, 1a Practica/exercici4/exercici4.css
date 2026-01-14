@@ -1,0 +1,143 @@
+.contenedor1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.imagenLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.links {
+  border: 2px dashed blue;
+  padding: 5px;
+}
+
+.links a {
+  color: rgb(2, 129, 17);
+  text-decoration: underline;
+}
+
+.links2 {
+  border: 5px dotted rgb(255, 255, 0);
+  background-color: blue;
+  text-align: center;
+}
+
+.links2 a {
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.titol1 {
+  background-color: yellow;
+  border: 3px dashed blue;
+  margin-bottom: 5px;
+  color: blue;
+  text-align: center;
+}
+
+.contenedor2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.imagen1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.links3 {
+  flex-grow: 1;
+  border: 2px dotted black;
+  padding: 5px;
+
+}
+
+.links3 a {
+  color: rgb(196, 0, 0);
+  text-decoration: underline;
+}
+
+.texto1 {
+  background-color: rgb(199, 199, 199);
+  border: 2px dotted black;
+  margin-bottom: 10px;
+  color: rgb(23, 23, 104);
+  text-align: right;
+}
+
+.contenedor3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.imagen2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.texto2 {
+  border: 2px dotted black;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.autor {
+  text-align: center;
+  border: 2px dotted black;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.contacto {
+  text-align: center;
+  border: 2px dotted rgb(128, 0, 126);
+  color: rgb(203, 145, 195);
+}
+
+.contenedor4 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fffeaa;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+th {
+  background-color: #bbdefb;
+}
+td {
+  background-color: rgba(255, 170, 170, 0.789);
+}
+.texto3 {
+  border: 2px dotted black;
+  padding: 5px;
+  flex-grow: 1;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respostes</title>
+</head>
+
+<body>
+    <ol type="a">
+        <li>Sobre el display INLINE-BLOCK</li>
+        <ol>
+            <li>Cóm podem situar una caixa al costat de l’altre?</li>
+            <p>Assignant display: inline-block a les caixes. Això permet que es comportin com elements en línia però
+                conservin les propietats de bloc (amplada, alçada).</p>
+            <li>Què passa si una caixa no hi cap al costat?</li>
+            <p>Passa a la línia següent automàticament, com si fos text que no cap en una línia.</p>
+            <li>Perquè serveix la propietat “vertical-align”?</li>
+            <p>Per alinear verticalment els elements inline o inline-block respecte a la línia base, al mig, a dalt,
+                etc. Exemple: vertical-align: middle.</p>
+            <li>Com podem centrar una caixa dins d’una altre?</li>
+            <p>Si és inline-block, pots usar text-align: center al contenidor. Si és bloc, millor usar Flexbox o Grid
+                per centratge més precís.</p>
+        </ol>
+        <li>Sobre el display FLEX-BOX</li>
+        <ol>
+            <li>Cóm podem crear files?</li>
+            <p>Amb display: flex i flex-direction: row (per defecte). Si vols columnes, usa flex-direction: column.</p>
+            <li>Perquè serveix flex-wrap?</li>
+            <p>Permet que els elements es distribueixin en múltiples línies si no hi caben. Exemple: flex-wrap: wrap.
+            </p>
+            <li>Perquè serveixen les propietats flex-grow, flex-shrink i flex-basis?</li>
+            <ul>
+                <li>flex-grow: defineix com creix un element si hi ha espai extra.</li>
+                <li>flex-shrink: defineix com es redueix si no hi ha prou espai.</li>
+                <li>flex-basis: defineix la mida inicial abans de distribuir l’espai.</li>
+            </ul>
+        </ol>
+        <li>Sobre el display GRID-LAYOUT</li>
+        <ol>
+            <li>Cóm indiquem el número de files i columnes de la grid?</li>
+            <p>Amb grid-template-rows i grid-template-columns.</p>
+            <textarea>
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: auto auto;
+</textarea>
+            <li>Cóm indiquem quantes files i/o columnes ocupa una àrea de la grid?</li>
+            <p>Com indiquem quantes files i/o columnes ocupa una àrea de la grid? Amb grid-column i grid-row. Exemple:
+            </p><textarea>
+grid-column: 1 / span 2;
+grid-row: 2 / 4;
+            </textarea>
+            <li>Què indiquen colom-gap i el row-gap? </li>
+            <p>L’espai entre columnes i files respectivament. També pots usar gap per definir ambdós alhora.</p>
+            <li>Què indica la propietat grid-area?</li>
+            <p>Permet assignar un nom a una àrea de la grid i col·locar elements amb grid-template-areas. Exemple:</p>
+            <textarea>
+grid-area: header;       
+            </textarea>
+        </ol>
+    </ol>
+</body>
+
+</html>

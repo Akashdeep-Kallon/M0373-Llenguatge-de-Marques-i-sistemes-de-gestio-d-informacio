@@ -1,0 +1,32 @@
+<!ELEMENT grupsMusica (grup+)>
+
+<!ELEMENT grup (nomGrup, genere+, webOficial?, integrants, nConcerts*, nFans)>
+<!ATTLIST grup
+    id ID #REQUIRED
+    nIntegrants CDATA #REQUIRED
+    generePrincipal (rock|pop|trap|classic) #REQUIRED
+>
+
+<!ELEMENT nomGrup (#PCDATA)>
+<!ATTLIST nomGrup idNomGrup ID #REQUIRED>
+
+<!ELEMENT genere (#PCDATA)>
+
+<!ELEMENT webOficial (#PCDATA)>
+
+<!ELEMENT integrants (integrant+)>
+
+<!ELEMENT integrant (nomIntegrant, cognom)>
+<!ATTLIST integrant order CDATA #REQUIRED
+>
+
+<!ELEMENT nomIntegrant (#PCDATA)>
+<!ATTLIST nomIntegrant idNom ID #REQUIRED>
+
+
+<!ELEMENT cognom (#PCDATA)>
+
+<!ELEMENT nConcerts (#PCDATA)>
+
+<!ELEMENT nFans (#PCDATA)>
+<!ATTLIST nFans idfans ID #REQUIRED>
