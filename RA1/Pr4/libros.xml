@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libros.xsd">
+    <libro>
+        <titulo>Sombras del Viento</titulo>
+        <escritores>
+            <autor>Laura Méndez</autor>
+            <autor>Carlos Ruiz</autor>
+        </escritores>
+        <ediciones numero="3" />
+        <publicacion>2018-05-12</publicacion>
+        <genero>fantástico</genero>
+        <genero>thriller</genero>
+    </libro>
+</libros>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grupos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gruposMusica.xsd">
+    <grupo>
+        <nombre>Ritmo Urbano</nombre>
+        <genero>rap</genero>
+        <contactos>
+            <email>contacto@ritmourbano.com</email>
+            <facebook>facebook.com/ritmourbano</facebook>
+            <instagram>instagram.com/ritmourbano</instagram>
+        </contactos>
+        <WebOficial>https://www.ritmourbanooficial.com</WebOficial>
+        <integrantes>
+            <integrante funcion="vocalista">
+                <edad>28</edad>
+                <nombre>Marco Díaz</nombre>
+            </integrante>
+            <integrante funcion="bajo">
+                <edad>34</edad>
+                <nombre>Javier Torres</nombre>
+            </integrante>
+        </integrantes>
+    </grupo>
+    <grupo>
+        <nombre>Melodía Viva</nombre>
+        <genero>pop</genero>
+        <genero>folk</genero>
+        <contactos>
+            <email>info@melodiaviva.es</email>
+            <twitter>twitter.com/melodiaviva</twitter>
+        </contactos>
+        <WebOficial>https://www.melodiaviva-musica.es</WebOficial>
+        <integrantes>
+            <integrante funcion="bateria">
+                <edad>25</edad>
+                <nombre>Lucía Pérez</nombre>
+            </integrante>
+            <integrante funcion="vocalista">
+                <edad>31</edad>
+                <nombre>Daniel Romero</nombre>
+            </integrante>
+        </integrantes>
+    </grupo>
+</grupos>

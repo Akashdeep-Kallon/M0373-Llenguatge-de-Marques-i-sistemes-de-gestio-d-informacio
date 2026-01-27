@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="equipos.xsd">
+    <equipo>
+        <nombreEquipo>CodeMasters</nombreEquipo>
+        <tipoTrabajo>desarrollo de software</tipoTrabajo>
+        <director>Laura Sánchez</director>
+
+        <resultados>
+            <year valor="2022">
+                <exitos>12</exitos>
+                <fracasos>3</fracasos>
+            </year>
+            <year valor="2023">
+                <exitos>15</exitos>
+                <fracasos>2</fracasos>
+            </year>
+        </resultados>
+
+        <integrantes>
+            <integrante>
+                <nombre>Daniel</nombre>
+                <apellido>Martínez</apellido>
+                <cargo>Backend Developer</cargo>
+                <fechaNacimiento>1995-04-12</fechaNacimiento>
+                <imagenRuta>/imagenes/equipo/daniel.png</imagenRuta>
+                <ultimaHoraParticipacion>09:30:00</ultimaHoraParticipacion>
+                <ultimaFechaParticipacion>2024-11-15</ultimaFechaParticipacion>
+
+                <estadisticas>
+                    <programasRealizados>34</programasRealizados>
+                    <bugsResueltos>120</bugsResueltos>
+                </estadisticas>
+            </integrante>
+
+            <integrante>
+                <nombre>Elena</nombre>
+                <apellido>Ruiz</apellido>
+                <cargo>Frontend Developer</cargo>
+                <fechaNacimiento>1998-09-02</fechaNacimiento>
+                <imagenRuta>/imagenes/equipo/elena.png</imagenRuta>
+                <ultimaHoraParticipacion>10:15:00</ultimaHoraParticipacion>
+                <ultimaFechaParticipacion>2024-11-15</ultimaFechaParticipacion>
+
+                <estadisticas>
+                    <programasRealizados>27</programasRealizados>
+                    <bugsResueltos>89</bugsResueltos>
+                </estadisticas>
+            </integrante>
+        </integrantes>
+    </equipo>
+</equipos>
