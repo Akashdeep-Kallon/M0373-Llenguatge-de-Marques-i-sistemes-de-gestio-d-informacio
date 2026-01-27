@@ -3,7 +3,7 @@
     <xs:element name="equipos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="equipo">
+                <xs:element name="equipo" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nombreEquipo">
@@ -135,5 +135,22 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+        <!-- El ejercicio 3 pide que algunos elementos sean únicos, pero como el documento de teoria no aparece nada de como 
+         hacer un elemento como único lo he buscado y lo he hecho así. Como no lo haz expliacado entiendo que no lo pides, pero
+         por si acaso lo he hecho igualmente. -->
+        <xs:unique name="nombreUnico">
+            <xs:selector xpath="equipo"/>
+            <xs:field xpath="nombreEquipo"/>
+        </xs:unique>
+
+        <xs:unique name="tipoUnico">
+            <xs:selector xpath="equipo"/>
+            <xs:field xpath="tipoTrabajo"/>
+        </xs:unique>
+
+        <xs:unique name="directorUnico">
+            <xs:selector xpath="equipo"/>
+            <xs:field xpath="director"/>
+        </xs:unique>
     </xs:element>
 </xs:schema>

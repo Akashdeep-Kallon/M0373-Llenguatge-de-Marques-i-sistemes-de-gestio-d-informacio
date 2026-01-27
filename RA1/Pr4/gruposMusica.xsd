@@ -6,7 +6,7 @@
                 <xs:element name="grupo" minOccurs="2" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="nombre">
+                            <xs:element name="nombre" minOccurs="1" maxOccurs="1">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                         <xs:minLength value="5"></xs:minLength>
@@ -98,6 +98,18 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+        <!-- El ejercicio 2 pide que los elementos nombre y edad del integrante sean únicos, pero como el documento 
+         de teoria no aparece nada de como hacer un elemento como único lo he buscado y lo he hecho así. 
+         Como no lo haz expliacado entiendo que no lo pides, pero por si acaso lo he hecho igualmente. -->
+        <xs:unique name="nombreIntegranteUnico">
+            <xs:selector xpath="grupo/integrantes/integrante"/>
+            <xs:field xpath="nombre"/>
+        </xs:unique>
+
+        <xs:unique name="edadUnica">
+            <xs:selector xpath="grupo/integrantes/integrante"/>
+            <xs:field xpath="edad"/>
+        </xs:unique>
     </xs:element>
 </xs:schema>
  
